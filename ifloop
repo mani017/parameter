@@ -1,6 +1,6 @@
   parameters {
         string(name: 'BRANCH', description: 'Enter the branch to build', defaultValue: 'main')
-        string(name: 'GIT_REPO', description: 'Enter the repo url', defaultValue: 'git branch:'https://github.com/mani017/parameter.git'')
+        string(name: 'GIT_REPO', description: 'Enter the repo url', defaultValue:'https://github.com/mani017/parameter.git'')
         choice(name: 'STAGE', choices: ['build','deploy'], description: 'Stages to build')
     }
 
